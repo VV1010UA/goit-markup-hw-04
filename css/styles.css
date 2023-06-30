@@ -90,9 +90,17 @@ body {
 .btn-main-page {
   color: #fff;
   font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: #4d5ae5;
+  cursor: pointer;
+}
+
+.btn-main-page:hover,
+.btn-main-page:focus {
+  background-color: #404bbf;
 }
 
 .buttons-main {
