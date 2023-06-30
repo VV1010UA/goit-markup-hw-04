@@ -93,15 +93,19 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .first-button {
-  color: #fff;
+  color: #4d5ae5;
   text-align: center;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background: #404bbf;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
 
 .section-title {
