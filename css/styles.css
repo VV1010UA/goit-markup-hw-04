@@ -54,7 +54,32 @@ body {
 
 /*?---------------Main----------------*/
 
+.main {
+  background-color: #fff;
+}
+
 /*?-----------First Section-----------*/
+
+.main-page-fs {
+  background-color: #2e2f42;
+}
+
+.main-page-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.btn-main-page {
+  color: var(--white, #fff);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--iris, #4d5ae5);
+}
 
 .buttons-main {
   color: var(--iris, #4d5ae5);
@@ -75,6 +100,25 @@ body {
 
 /*?-----------Second Section-----------*/
 
+.main-page-ss {
+  background: #fff;
+}
+
+.mpss-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.mpss-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .second-section-title {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
@@ -90,16 +134,63 @@ body {
   letter-spacing: 0.02em;
 }
 
+/*?----------Third Section-----------*/
+
+.third-section-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/*?---------Fourth Section-------------*/
+
+.fourth-section {
+  background-color: var(--cloud, #f4f4fd);
+}
+
+.fourth-section-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.fourth-section-title-list {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.fourth-section-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /*?--------------Footer---------------*/
 
+.footer {
+  background-color: #2e2f42;
+}
+
 .footer-text {
-  color: var(--cloud, #f4f4fd);
+  color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.footer {
-  background-color: (--navyblue, #2e2f42);
+.header-logo-footer {
+  color: #f4f4fd;
 }
