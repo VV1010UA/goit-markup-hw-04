@@ -75,10 +75,6 @@ body {
 
 /*?---------------Main----------------*/
 
-.main {
-  background-color: #fff;
-}
-
 .main-page-fs {
   background-color: var(--text-color);
 }
@@ -143,10 +139,6 @@ body {
 }
 
 /*?-----------Second Section-----------*/
-
-.main-page-ss {
-  background: #fff;
-}
 
 .mpss-title {
   color: var(--text-color);
