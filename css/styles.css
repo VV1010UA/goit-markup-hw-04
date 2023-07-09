@@ -67,6 +67,7 @@ img {
   width: 100%;
   max-width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 /*?----------------Header--------------*/
@@ -261,7 +262,6 @@ h2 {
 }
 
 .item-advantage {
-  padding-left: 156px;
   width: calc((100% - 72px) / 4);
 }
 
