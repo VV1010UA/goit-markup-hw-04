@@ -424,7 +424,7 @@ h2 {
   background-color: #f4f4fd;
   cursor: pointer;
   padding: 12px 24px;
-  border: 1px solid var(--btn-text);
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
 
@@ -432,6 +432,7 @@ h2 {
 .buttons-main:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .portfolio-second-list {
