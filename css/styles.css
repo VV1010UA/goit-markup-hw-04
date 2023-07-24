@@ -152,7 +152,7 @@ img {
 
 /*?---------------Main----------------*/
 
-.main-page-fs {
+.first-section {
   background-color: var(--text-color);
   padding: 188px 0;
   background-image: linear-gradient(
@@ -203,9 +203,20 @@ img {
 
 /*?-----------Second Section-----------*/
 
-.main-page-ss {
+.second-section {
   padding: 120px 0;
   margin: 0 auto;
+}
+
+.advantage-block {
+  /* width: 264px; */
+  height: 112px;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .visually-hidden {
@@ -221,16 +232,26 @@ img {
   overflow: hidden;
 }
 
-.mpss-title {
+.advantages-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+
+.advantage-title {
   color: var(--text-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
-.mpss-text {
+.advantage-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -239,26 +260,15 @@ img {
   text-align: left;
 }
 
-.mpss-list {
+.advantage-list {
   list-style: none;
   text-align: left;
   display: flex;
   gap: 24px;
 }
 
-.item-advantage {
+.advantage-item {
   width: calc((100% - 72px) / 4);
-}
-
-.advantage-block {
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  background-color: #f4f4fd;
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /*?----------Third Section-----------*/
