@@ -2,6 +2,7 @@
   --text-color: #2e2f42;
   --background-color: #ffffff;
   --brand-color: #4d5ae5;
+  --link-color: #404bbf;
 }
 
 body {
@@ -100,7 +101,7 @@ img {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #404bbf;
+  color: var(--link-color);
 }
 
 .header-item {
@@ -146,7 +147,7 @@ img {
 
 .header-address-link:hover,
 .header-address-link:focus {
-  color: #404bbf;
+  color: var(--link-color);
 }
 
 /*?---------------Main----------------*/
@@ -197,7 +198,7 @@ img {
 
 .btn-main-page:hover,
 .btn-main-page:focus {
-  background-color: #404bbf;
+  background-color: var(--link-color);
 }
 
 /*?-----------Second Section-----------*/
@@ -367,7 +368,7 @@ img {
 
 .team-social-link:hover,
 .team-social-link:focus {
-  background-color: #404bbf;
+  background-color: var(--link-color);
 }
 
 /*?------------Customers--------------*/
@@ -414,25 +415,25 @@ img {
 }
 
 .customers-link:is(:hover, :focus) .customers-icon {
-  border-color: #404bbf;
+  border-color: var(--link-color);
 }
 
-.customers-icon:hover,
+/* .customers-icon:hover,
 .customers-icon:focus {
   color: #404bbf;
-}
+} */
 
 .customers-link:hover {
-  border-color: #404bbf;
-  color: #404bbf;
+  border-color: var(--link-color);
+  color: var(--link-color);
 }
 .customers-link:focus {
-  border-color: #404bbf;
-  color: #404bbf;
+  border-color: var(--link-color);
+  color: var(--link-color);
 }
 
 .customers-icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 /*?--------------Footer---------------*/
@@ -585,7 +586,7 @@ img {
 .buttons-main:hover,
 .buttons-main:focus {
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: var(--link-color);
   border: 1px solid transparent;
 }
 
